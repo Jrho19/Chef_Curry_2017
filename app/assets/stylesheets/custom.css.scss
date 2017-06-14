@@ -33,7 +33,7 @@ $navbar-default-bg: #4149f4;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
-  text-shadow: -1.25px 0 black, 0 1.25px black, 1.25px 0 black, 0 -1.25px black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .btn-xlarge {
@@ -43,4 +43,9 @@ $navbar-default-bg: #4149f4;
 .btn-xlarge:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
 }
