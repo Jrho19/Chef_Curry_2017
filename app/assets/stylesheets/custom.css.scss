@@ -11,6 +11,7 @@ $navbar-default-bg: #4149f4;
   background-image: asset-url('cover_image.png');
   background-size: cover;
   height: 300px;
+  text-shadow: -0.85px 0 black, 0 0.85px black, 0.85px 0 black, 0 -0.85px black;
 }
 
 #logo {
@@ -33,7 +34,6 @@ $navbar-default-bg: #4149f4;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .btn-xlarge {
@@ -48,4 +48,8 @@ $navbar-default-bg: #4149f4;
 .footer {
   text-align: center;
   margin-top: 50px;
+}
+
+.col-lg-4 h2 {
+  color: blue;
 }
