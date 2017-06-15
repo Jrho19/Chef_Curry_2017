@@ -24,11 +24,6 @@ class ChefTest < ActiveSupport::TestCase
     assert_not @chef.valid?
   end
 
-  test "chefname should be greater than 5 characters" do
-    @chef.chefname = "a" * 3
-    assert_not @chef.valid?
-  end
-
   test "email shouldn't be greater than 255 characters" do
     @chef.email = "a" * 250 + "@example.com"
     assert_not @chef.valid?
